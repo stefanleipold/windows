@@ -1,6 +1,7 @@
 @echo off
 
-@powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-object net.webclient).DownloadString('https://raw.github.com/StefanScherer/arduino-ide/install/InstallNet4.ps1'))"
+Echo Installing Chocolatey
+@powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-object net.webclient).DownloadString('https://github.com/stefanleipold/windows/raw/master/InstallNet4.ps1'))"
 @powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%systemdrive%\chocolatey\bin
 set ChocolateyInstall=%SystemDrive%\Chocolatey
 set PATH=%PATH%;%ChocolateyInstall%\bin
@@ -108,3 +109,4 @@ call cinst windirstat
 	rem cinst freemind
 	rem cinst gnuwin
 	rem cinst vmwareplayer
+@powershell -NoProfile -ExecutionPolicy unrestricted -file windowsupdate.ps1
