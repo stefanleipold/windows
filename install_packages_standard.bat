@@ -64,6 +64,8 @@ call cinst windowstelnet
 	rem cinst spybot
 	rem cinst avirafreeantivirus
 	rem cinst f-secureav
+	rem --- Anti Virus Tools
+	rem call cinst kvrt
 
 
 	rem --------------------
