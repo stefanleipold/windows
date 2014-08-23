@@ -57,6 +57,7 @@ call cinst folder_size
 	rem --------------------
 	rem --- Virenscanner ---
 	rem --------------------
+call cinst kis
 	rem call cinst kav
 	rem cinst avastfreeantivirus
 	rem cinst avgantivirusfree
