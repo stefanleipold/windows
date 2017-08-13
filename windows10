@@ -3,6 +3,7 @@ choco install anti-beacon
 
 
 https://github.com/W4RH4WK/Debloat-Windows-10/archive/master.zip
+Set-ExecutionPolicy Unrestricted
 rem block-telemetry.ps1
 rem disable-services.ps1
 rem remove-onedrive.ps1
