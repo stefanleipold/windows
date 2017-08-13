@@ -1,5 +1,5 @@
-choco inst emet
-choco inst anti-beacon
+choco install emet
+choco install anti-beacon
 
 
 
