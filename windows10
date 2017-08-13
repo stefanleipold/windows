@@ -3,13 +3,13 @@ choco inst anti-beacon
 
 
 
-windows10 entschlacken:
-  https://github.com/W4RH4WK/Debloat-Windows-10
+rem windows10 entschlacken:
+  rem https://github.com/W4RH4WK/Debloat-Windows-10
 
-windows10 antispy:
-
-rem https://www.oo-software.com/de/shutup10
+rem windows10 antispy:
+  rem https://www.oo-software.com/de/shutup10
   rem https://chocolatey.org/packages/anti-beacon
 
-windows10 emet:
-https://github.com/seanthegeek/powertools/tree/master/EMET
+rem windows10 emet:
+rem https://github.com/seanthegeek/powertools/tree/master/EMET
+rem https://chocolatey.org/packages/emet
