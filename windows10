@@ -2,12 +2,13 @@ choco install emet
 choco install anti-beacon
 
 
-https://github.com/W4RH4WK/Debloat-Windows-10/blob/master/scripts/block-telemetry.ps1
-https://github.com/W4RH4WK/Debloat-Windows-10/blob/master/scripts/disable-services.ps1
-https://github.com/W4RH4WK/Debloat-Windows-10/blob/master/scripts/remove-onedrive.ps1
-https://github.com/W4RH4WK/Debloat-Windows-10/blob/master/scripts/block-telemetry.ps1
-https://github.com/W4RH4WK/Debloat-Windows-10/blob/master/scripts/remove-default-apps.ps1
-https://github.com/W4RH4WK/Debloat-Windows-10/blob/master/scripts/optimize-user-interface.ps1
+https://github.com/W4RH4WK/Debloat-Windows-10/archive/master.zip
+rem block-telemetry.ps1
+rem disable-services.ps1
+rem remove-onedrive.ps1
+rem block-telemetry.ps1
+rem remove-default-apps.ps1
+rem optimize-user-interface.ps1
 
 
 
